@@ -9,7 +9,7 @@ root.render(
   // render is a function//this takes component
   <React.StrictMode> {/* <//it gives additional checks and balanace} */}
     {/* jsx element must have only one parent element so, we need fragment<> tags  */}
-    <h1>hello</h1>
+    
     <App />
   </React.StrictMode> 
 );

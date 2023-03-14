@@ -1,0 +1,28 @@
+.todo {
+    align-self: center;
+    color: white;
+    justify-content: center;
+    background-color: grey;
+    border: 4px solid royalblue;
+    border-radius: 17px;
+    margin-left: 30%;
+    margin-top: 80px;
+    width :50vh;
+    height: 50vh;
+    padding-left: 15px;
+  }
+  
+  .todo .crossText {
+    text-decoration: line-through;
+    color: black;
+  }
+
+ .header{
+    color: white;
+  }
+  
+  
+  
+  .todo ul li .completed {
+    
+  }

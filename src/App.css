@@ -1,5 +1,13 @@
+
+.App{
+  background-color: rgb(255, 187, 0);
+}
 .container{
   margin-top: 100px;
   margin-left: 15%;
   width:50%;
+  height: 100 px;
+  background-color: grey;
+  border: 2px solid rgb(126, 7, 126);
+  border-radius: 15px;
 }

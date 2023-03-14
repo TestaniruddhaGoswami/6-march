@@ -1,26 +1,13 @@
 import React from "react";
-import Crud from "./components/Crud";
-import Counter from "./components/Counter";
-import NameChange from "./components/Namechange";
+import "./App.css";
+import TodoApp from "./components/TodoApp";
 
-
-
-
-
-function App(){
-  
+function App() {
   return (
-    <div>
-      
-<Crud/>
-<hr></hr>
-<Counter/>
-<hr></hr>
-<NameChange/>
-
-      
+    <div className="App">
+  
+      <TodoApp />
     </div>
-   
   );
 }
 
