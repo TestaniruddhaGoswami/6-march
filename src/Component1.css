@@ -1,0 +1,32 @@
+.container1{
+    display: flex;
+}
+
+.Images{
+    height: 300px;
+    width: 400px;
+    margin:2px 20px 2px 100px;
+    border: 2px solid red;
+    justify-content: center;
+}
+.Images-container{
+
+    width:50vw;
+    background-color: aquamarine;
+}
+.Button-container{
+
+    width:50vw;
+    background-color: rgb(227, 255, 127);
+}
+.Button{
+    margin: 175px;
+    background-color:yellowgreen;
+    color: red;
+    height: 45px;
+    width: 60px;
+}
+.Header{
+    text-align: center;
+    color:red;
+}

@@ -1,0 +1,51 @@
+input[type=text], input[type=password] {
+    width: 25%;
+    padding: 12px 100px;
+    margin: 8px 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    /* box-sizing: border-box; */
+  }
+  input[type=email]{
+    width: 25%;
+    padding: 12px 100px;
+    margin: 18px 35px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    /* box-sizing: border-box; */
+  }
+  .Headers {
+    text-align: center;
+    color: goldenrod;
+  }
+  .Login-container{
+    border: 3px solid red;
+    height: 150px;
+    width:40%;
+    margin-left: 300px;
+    padding: 40px;
+    color: blue;
+    background-color: aquamarine;
+  }
+  .Signup-container{
+    border: 3px solid red;
+    height: 270px;
+    width:40%;
+    margin-left: 300px;
+    padding: 40px;
+    color: blue;
+    background-color: aquamarine;
+  }
+  .btn{
+    margin-left: 300px;
+    background-color: yellow;
+    color: green;
+    width:45px
+  }
+  .last{
+    margin-left: 300px;
+    
+    color: green;
+    width:45px
+  
+  }
