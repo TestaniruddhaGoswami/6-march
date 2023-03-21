@@ -1,0 +1,147 @@
+.nav{
+    display: flex;
+    /* border: 5px black solid; */
+    justify-content:space-between;
+    margin-top: 30px;
+    }
+    ul{
+        list-style-type: none;
+        margin-left: 50px;
+       
+    }
+    ul li{
+        display: inline;
+        margin-left: 50px;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 30px;
+    
+    }
+    /* p{
+        font-size: 20px;
+    } */
+    .btns{
+    float: right;
+    margin-top: 10px;
+    margin-right: 100px;
+    
+    }
+    .loginbtn{
+        border: none;
+        background-color: white;
+        font-size: 20px;
+
+    }
+    .signupbtn{
+        border: 2px #e8b54d solid;
+        background-color: white;
+        font-size: 20px;
+        border-radius: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 15px;
+
+    }
+    .imgLogo{
+        
+        margin-top: 25px;
+        margin-left: 100px;
+
+    }
+
+.imgBaricon{
+    margin-right:80px;
+    width:200px;
+    height:200px;
+}
+.barBtn{
+    display: none;
+    background-color: white;
+    border: none;
+}
+
+
+    @media only screen and (max-width:400px){
+       
+
+
+        ul{
+            list-style-type: none;
+            margin-left: 1px;
+            display: none;
+            
+           
+        }
+        ul li{
+            display:block;
+            margin-left: 20px;
+            background-color: rgb(109, 109, 172);
+            width:400px;
+            text-align: center;
+       
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+        
+        }
+        p{
+            font-size: 20px;
+        }
+        .btns{
+        float: right;
+        margin-top: 10px;
+        margin-right: 1px;
+        margin-left:70px
+        
+        }
+        .loginbtn{
+            border: none;
+            background-color: white;
+            font-size: 50px;
+            margin-top: 10px;
+            width:390px;
+
+    
+        }
+        .signupbtn{
+            border: 2px #e8b54d solid;
+            background-color: white;
+            width:400px;
+            font-size: 50px;
+            border-radius: 100px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 100px;
+            padding-right: 100px;
+            margin-left: 1px;
+            margin-top:10px;
+            
+    
+        }
+        .imgLogo{
+            
+            margin-top: 100px;
+            margin-left: 100px;
+            width:300px;
+            height:100px;
+        }
+    
+
+        .imgBaricon{
+            margin-left: 1px;
+        }
+        .barBtn{
+            display:block;
+            
+        }
+
+
+      }
